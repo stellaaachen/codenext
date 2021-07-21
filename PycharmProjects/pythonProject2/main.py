@@ -68,7 +68,7 @@ def is_triangle(a,b,c):
     if(a+b>c or a+c>b or b+c>a):
         return False
     elif(a+b==c or a+c==b or a+b==c):
-        print('It\'s a degenerate triangle!')
+        pass
     else:
         return True
 
